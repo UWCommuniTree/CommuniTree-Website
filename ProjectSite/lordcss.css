@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { 
+	background: url(img/Olympic.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+#menu{
+	position:absolute;
+	display:none;
+	top:50px;
+	right:8vw;
+	color:white;
+	font-size:28px;
+	text-align:center;
+}
+
+#menu td{
+	width:130px;
+}
+
+#menu span:hover{
+	color:green;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#main{
+	position:absolute;
+	width:500px;
+	left: 14vw;
+	display:none;
+	top:150px;
+	color:white;
+	font-size:26px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+#ryan{
+	position:absolute;
+	top: 600px;
+	left:14vw;
+	width:250px;
+}
+
+#logo{
+	position:absolute;
+	top:25px;
+	width:10vw;
+	left:3vw;
+	display:none;
+}
+#header{	
+	position:absolute;
+	top:25px;
+	left:15vw;
+	display:none;
+	color:white;
+	font:Verdana, Geneva, sans-serif;
+	font-size:72px;
+	z-index:2;
+}
+
+#wipe{
+	z-index:-2;
+	display:block;
+	position:fixed;
+	padding:0;
+	margin:0;
+	opacity:1;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	background-color:black;
+}
+#plantGrid{
+	background:url(img/wood.jpg);
+	background-size:cover;
+	position:absolute;
+	top:10vw;
+	bottom: 5vw;
+	left:10vw;
+	right:10vw;
+	background-color:black;
+	width:auto;
+}
+
+
