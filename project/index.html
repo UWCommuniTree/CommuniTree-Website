@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CommuniTree: Home</title>
+	<style>
+		/* fill color */
+		ul {
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: black;
+		}
+
+		li {
+    		float: left;
+    		border-right:1px solid #bbb;
+		}	
+
+		li:last-child {
+    		border-right: none;
+		}
+
+		li a {
+    		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+
+
+		/* color of active */
+		.active { 
+    		background-color: #E7B22D;
+		}
+		/*text color*/
+		li a, .dropbtn { 
+    		display: inline-block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+
+		/* color of mouse over */
+		li a:hover, .dropdown:hover .dropbtn { 
+   			 background-color: #FBE211;
+		}
+
+		li.dropdown {
+  			 display: inline-block;
+		}
+a{text-decoration: none; }
+
+/* dropdown fill color*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* dropdown hover color*/
+.dropdown-content a:hover {background-color: #FFF97C}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#main {
+    color: black;
+    font-family: arial;
+    font-size: 100%;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+ }
+	</style>
+	</head>
+	
+	<body>
+	<div id="header">
+	<h1>CommuniTree</h1>
+	</div>
+		<ul>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Media</a>
+				<div class="dropdown-content">
+					<a href="#"> Link 1 </a>
+					<a href="#"> Link 2 </a>
+					<a href="#"> Link 3 </a>
+				</div>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">About Us</a></li>
+		</ul>
+		<div id="section">
+		<p id="main">CommuniTree is an art installation created by 5 University of Washington Bothell students. The installation will be located in the ARC building later this year. For more information, be sure to check out the Interactive and Video.
+		</p>
+		</div>
+	</body>
+</html>
